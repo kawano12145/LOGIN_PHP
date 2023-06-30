@@ -1,4 +1,4 @@
-#!C:\xampp3\php\.\php.exe
+#!C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\php\.\php.exe
 <?php
 /* PHPUnit
  *
@@ -37,10 +37,10 @@
 
 define('PHPUnit_MAIN_METHOD', 'PHPUnit_TextUI_Command::main');
 
-if (strpos('C:\xampp3\php\.\php.exe', '@php_bin') === 0) {
+if (strpos('C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\php\.\php.exe', '@php_bin') === 0) {
     require dirname(__FILE__) . DIRECTORY_SEPARATOR . 'PHPUnit' . DIRECTORY_SEPARATOR . 'Autoload.php';
 } else {
-    require 'C:\xampp3\php\pear' . DIRECTORY_SEPARATOR . 'PHPUnit' . DIRECTORY_SEPARATOR . 'Autoload.php';
+    require 'C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\php\pear' . DIRECTORY_SEPARATOR . 'PHPUnit' . DIRECTORY_SEPARATOR . 'Autoload.php';
 }
 
 PHPUnit_TextUI_Command::main();

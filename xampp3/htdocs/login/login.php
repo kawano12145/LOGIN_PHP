@@ -80,11 +80,7 @@ try {
   <h1>
   ログイン
 </h1>
-<style> .timezone {
-  color:#5555;
-  text-align:center;
-}
-</style>
+
 <div class="timezone">
 <?php
 date_default_timezone_set('Asia/Tokyo');
@@ -103,7 +99,7 @@ echo date("Y年m月d日 H:i:s");
 
     
         <label for="login-mail"
-        ><span>メールアドレス</span>
+        ><span>メールアドレスaa</span>
         <input id="username" name="username" type="email" placeholder="メールアドレスを入力"/><br />
       </label>
         
