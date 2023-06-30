@@ -1,0 +1,26 @@
+.timezone {
+  color: #5555;
+  text-align: center;
+  display: flex;
+}
+
+h1 {
+  display: flex;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 1%;
+}
+
+body {
+  padding-left: 42%;
+  justify-content: center;
+}
+
+h2 {
+  padding-bottom: 2%;
+}
+
+.username {
+  color: cadetblue;
+  font-size: xx-large;
+}

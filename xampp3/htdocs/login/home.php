@@ -39,7 +39,8 @@ echo date("Y年m月d日 H:i:s");
 <body>
 
 
-  <h2><?php echo $_SESSION['username']; ?> さん、ようこそ！</h2>
+  <h2><div class="username">
+    <?php echo $_SESSION['username']; ?> </div>さん、ようこそ！</h2>
 
 
 <br />

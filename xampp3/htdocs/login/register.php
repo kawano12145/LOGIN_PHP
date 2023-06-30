@@ -52,7 +52,7 @@ try {
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="login.css" />
+  <link rel="stylesheet" href="register.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>新規登録</title>
 </head>
@@ -114,10 +114,13 @@ echo date("Y年m月d日 H:i:s");
 <br />
 <br />
 
-<div style="text-align: center;"><?php echo $error; ?></div>
-
 
 
 
 </body>
+
+
+<div class="error">
+<?php echo $error; ?></div>
+
 </html>
