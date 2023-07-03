@@ -100,7 +100,9 @@ echo date("Y年m月d日 H:i:s");
     
         <label for="login-mail"
         ><span>メールアドレス</span>
-        <input id="username" name="username" type="email" placeholder="メールアドレスを入力"/><br />
+
+          
+             <input id="username" name="username" type="email" placeholder="メールアドレスを入力"/><br />
       </label>
         
 

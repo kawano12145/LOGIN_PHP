@@ -1,17 +1,18 @@
 .timezone {
   color: #5555;
   text-align: center;
-  display: flex;
 }
 
 h1 {
-  display: flex;
   text-align: center;
+  align-items: center;
   padding-top: 10%;
   padding-bottom: 1px;
+  margin: auto;
 }
 body {
-  padding-left: 42%;
+  /* padding-left: 42%; */
+  position: relative;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -19,6 +20,7 @@ body {
 }
 
 .register {
+  margin: auto;
   max-width: 300px;
   padding: 20px;
   background-color: #f2f2f2;
@@ -58,6 +60,5 @@ body {
 }
 
 .error {
-  padding-top: 10px;
-  display: flex;
+  text-align: center;
 }
