@@ -125,3 +125,24 @@
 19:15:37  [main] 	Deinitializing Modules
 19:15:37  [main] 	Deinitializing Control Panel
 
+9:25:25  [main] 	Initializing Control Panel
+9:25:25  [main] 	Windows Version:  Enterprise  64-bit
+9:25:25  [main] 	XAMPP Version: 8.2.4
+9:25:25  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+9:25:25  [main] 	You are not running with administrator rights! This will work for
+9:25:25  [main] 	most application stuff but whenever you do something with services
+9:25:25  [main] 	there will be a security dialogue or things will break! So think 
+9:25:25  [main] 	about running this application with administrator rights!
+9:25:25  [main] 	XAMPP Installation Directory: "c:\users\kawano\documents\git_project\login_practice\xampp3\"
+9:25:25  [main] 	Checking for prerequisites
+9:25:27  [main] 	All prerequisites found
+9:25:27  [main] 	Initializing Modules
+9:25:27  [main] 	Starting Check-Timer
+9:25:27  [main] 	Control Panel Ready
+9:25:30  [Apache] 	Attempting to start Apache app...
+9:25:30  [Apache] 	Status change detected: running
+9:25:34  [mysql] 	Attempting to start MySQL app...
+9:25:34  [mysql] 	Status change detected: running
+17:48:25  [main] 	Deinitializing Modules
+17:48:25  [main] 	Deinitializing Control Panel
+
