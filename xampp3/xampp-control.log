@@ -146,3 +146,37 @@
 17:48:25  [main] 	Deinitializing Modules
 17:48:25  [main] 	Deinitializing Control Panel
 
+9:20:16  [main] 	Initializing Control Panel
+9:20:16  [main] 	Windows Version:  Enterprise  64-bit
+9:20:17  [main] 	XAMPP Version: 8.2.4
+9:20:17  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+9:20:17  [main] 	You are not running with administrator rights! This will work for
+9:20:17  [main] 	most application stuff but whenever you do something with services
+9:20:17  [main] 	there will be a security dialogue or things will break! So think 
+9:20:17  [main] 	about running this application with administrator rights!
+9:20:17  [main] 	XAMPP Installation Directory: "c:\users\kawano\documents\git_project\login_practice\xampp3\"
+9:20:17  [main] 	Checking for prerequisites
+9:20:18  [main] 	All prerequisites found
+9:20:18  [main] 	Initializing Modules
+9:20:18  [main] 	Starting Check-Timer
+9:20:18  [main] 	Control Panel Ready
+9:20:33  [Apache] 	Attempting to start Apache app...
+9:20:33  [Apache] 	Status change detected: running
+9:20:35  [mysql] 	Attempting to start MySQL app...
+9:20:35  [mysql] 	Status change detected: running
+15:36:04  [Apache] 	Attempting to stop Apache (PID: 11160)
+15:36:04  [Apache] 	Attempting to stop Apache (PID: 20108)
+15:36:04  [Apache] 	Status change detected: stopped
+15:36:05  [Apache] 	Attempting to start Apache app...
+15:36:06  [Apache] 	Status change detected: running
+17:38:26  [Apache] 	Status change detected: stopped
+17:38:26  [Apache] 	Error: Apache shutdown unexpectedly.
+17:38:27  [Apache] 	This may be due to a blocked port, missing dependencies, 
+17:38:27  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+17:38:27  [Apache] 	Press the Logs button to view error logs and check
+17:38:27  [Apache] 	the Windows Event Viewer for more clues
+17:38:27  [Apache] 	If you need more help, copy and post this
+17:38:27  [Apache] 	entire log window on the forums
+17:38:35  [main] 	Deinitializing Modules
+17:38:35  [main] 	Deinitializing Control Panel
+
