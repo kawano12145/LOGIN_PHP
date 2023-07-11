@@ -1,7 +1,13 @@
 .button-container {
-  margin: auto;
-  padding-top: 2%;
-  text-align: center;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.button-container form {
+  margin: 0 30px;
 }
 
 .message {

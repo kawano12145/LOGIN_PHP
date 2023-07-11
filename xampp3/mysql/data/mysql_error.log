@@ -217,3 +217,76 @@ recovered pages: 0% 11% 31% 47% 74% 100% (0.0 seconds); tables to flush: 1 0
 2023-07-07  8:50:25 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\mysql\data\ib_buffer_pool
 2023-07-07  8:50:25 0 [Note] Plugin 'FEEDBACK' is disabled.
 2023-07-07  8:50:25 0 [Note] Server socket created on IP: '::'.
+2023-07-10  9:00:50 0 [Note] Starting MariaDB 10.4.28-MariaDB source revision c8f2e9a5c0ac5905f28b050b7df5a9ffd914b7e7 as process 21072
+2023-07-10  9:00:50 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-07-10  9:00:50 0 [Note] InnoDB: Uses event mutexes
+2023-07-10  9:00:50 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-07-10  9:00:50 0 [Note] InnoDB: Number of pools: 1
+2023-07-10  9:00:50 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-07-10  9:00:50 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-07-10  9:00:50 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-07-10  9:00:50 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1049315
+2023-07-10  9:00:50 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-07-10  9:00:50 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-07-10  9:00:50 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-07-10  9:00:50 0 [Note] InnoDB: Setting file 'C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-07-10  9:00:50 0 [Note] InnoDB: File 'C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\mysql\data\ibtmp1' size is now 12 MB.
+2023-07-10  9:00:50 0 [Note] InnoDB: 10.4.28 started; log sequence number 1049324; transaction id 1981
+2023-07-10  9:00:50 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\mysql\data\ib_buffer_pool
+2023-07-10  9:00:50 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-07-10  9:00:50 0 [Note] InnoDB: Buffer pool(s) load completed at 230710  9:00:50
+2023-07-10  9:00:50 0 [Note] Server socket created on IP: '::'.
+2023-07-11  9:02:36 0 [Note] Starting MariaDB 10.4.28-MariaDB source revision c8f2e9a5c0ac5905f28b050b7df5a9ffd914b7e7 as process 2592
+2023-07-11  9:02:36 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-07-11  9:02:36 0 [Note] InnoDB: Uses event mutexes
+2023-07-11  9:02:36 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-07-11  9:02:36 0 [Note] InnoDB: Number of pools: 1
+2023-07-11  9:02:36 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-07-11  9:02:36 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-07-11  9:02:36 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-07-11  9:02:36 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1112630
+2023-07-11  9:02:36 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-07-11  9:02:36 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-07-11  9:02:36 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-07-11  9:02:36 0 [Note] InnoDB: Setting file 'C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-07-11  9:02:36 0 [Note] InnoDB: File 'C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\mysql\data\ibtmp1' size is now 12 MB.
+2023-07-11  9:02:36 0 [Note] InnoDB: 10.4.28 started; log sequence number 1112639; transaction id 2294
+2023-07-11  9:02:36 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\mysql\data\ib_buffer_pool
+2023-07-11  9:02:36 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-07-11  9:02:36 0 [Note] Server socket created on IP: '::'.
+2023-07-11  9:02:39 0 [Note] Starting MariaDB 10.4.28-MariaDB source revision c8f2e9a5c0ac5905f28b050b7df5a9ffd914b7e7 as process 4896
+2023-07-11  9:02:39 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-07-11  9:02:39 0 [Note] InnoDB: Uses event mutexes
+2023-07-11  9:02:39 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-07-11  9:02:39 0 [Note] InnoDB: Number of pools: 1
+2023-07-11  9:02:39 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-07-11  9:02:39 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-07-11  9:02:39 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-07-11  9:02:39 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1112630
+2023-07-11  9:02:39 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-07-11  9:02:39 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-07-11  9:02:39 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-07-11  9:02:39 0 [Note] InnoDB: Setting file 'C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-07-11  9:02:39 0 [Note] InnoDB: File 'C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\mysql\data\ibtmp1' size is now 12 MB.
+2023-07-11  9:02:39 0 [Note] InnoDB: 10.4.28 started; log sequence number 1112639; transaction id 2294
+2023-07-11  9:02:39 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\mysql\data\ib_buffer_pool
+2023-07-11  9:02:39 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-07-11  9:02:39 0 [Note] Server socket created on IP: '::'.
+2023-07-11 11:16:55 0 [Note] Starting MariaDB 10.4.28-MariaDB source revision c8f2e9a5c0ac5905f28b050b7df5a9ffd914b7e7 as process 7900
+2023-07-11 11:16:55 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-07-11 11:16:55 0 [Note] InnoDB: Uses event mutexes
+2023-07-11 11:16:55 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-07-11 11:16:55 0 [Note] InnoDB: Number of pools: 1
+2023-07-11 11:16:55 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-07-11 11:16:55 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-07-11 11:16:55 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-07-11 11:16:55 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1113489
+2023-07-11 11:16:55 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-07-11 11:16:55 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-07-11 11:16:55 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-07-11 11:16:55 0 [Note] InnoDB: Setting file 'C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-07-11 11:16:55 0 [Note] InnoDB: File 'C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\mysql\data\ibtmp1' size is now 12 MB.
+2023-07-11 11:16:55 0 [Note] InnoDB: 10.4.28 started; log sequence number 1113498; transaction id 2304
+2023-07-11 11:16:55 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\mysql\data\ib_buffer_pool
+2023-07-11 11:16:55 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-07-11 11:16:55 0 [Note] Server socket created on IP: '::'.

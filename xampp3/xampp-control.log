@@ -180,3 +180,93 @@
 17:38:35  [main] 	Deinitializing Modules
 17:38:35  [main] 	Deinitializing Control Panel
 
+8:50:16  [main] 	Initializing Control Panel
+8:50:16  [main] 	Windows Version:  Enterprise  64-bit
+8:50:16  [main] 	XAMPP Version: 8.2.4
+8:50:16  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+8:50:16  [main] 	You are not running with administrator rights! This will work for
+8:50:16  [main] 	most application stuff but whenever you do something with services
+8:50:16  [main] 	there will be a security dialogue or things will break! So think 
+8:50:16  [main] 	about running this application with administrator rights!
+8:50:16  [main] 	XAMPP Installation Directory: "c:\users\kawano\documents\git_project\login_practice\xampp3\"
+8:50:16  [main] 	Checking for prerequisites
+8:50:18  [main] 	All prerequisites found
+8:50:18  [main] 	Initializing Modules
+8:50:18  [main] 	Starting Check-Timer
+8:50:18  [main] 	Control Panel Ready
+8:50:20  [Apache] 	Attempting to start Apache app...
+8:50:21  [Apache] 	Status change detected: running
+8:50:22  [mysql] 	Attempting to start MySQL app...
+8:50:22  [mysql] 	Status change detected: running
+8:50:23  [mysql] 	Status change detected: stopped
+8:50:23  [mysql] 	Error: MySQL shutdown unexpectedly.
+8:50:23  [mysql] 	This may be due to a blocked port, missing dependencies, 
+8:50:23  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+8:50:23  [mysql] 	Press the Logs button to view error logs and check
+8:50:23  [mysql] 	the Windows Event Viewer for more clues
+8:50:23  [mysql] 	If you need more help, copy and post this
+8:50:23  [mysql] 	entire log window on the forums
+8:50:25  [mysql] 	Attempting to start MySQL app...
+8:50:25  [mysql] 	Status change detected: running
+17:36:49  [main] 	Deinitializing Modules
+17:36:49  [main] 	Deinitializing Control Panel
+
+9:00:42  [main] 	Initializing Control Panel
+9:00:42  [main] 	Windows Version:  Enterprise  64-bit
+9:00:42  [main] 	XAMPP Version: 8.2.4
+9:00:42  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+9:00:42  [main] 	You are not running with administrator rights! This will work for
+9:00:42  [main] 	most application stuff but whenever you do something with services
+9:00:42  [main] 	there will be a security dialogue or things will break! So think 
+9:00:42  [main] 	about running this application with administrator rights!
+9:00:42  [main] 	XAMPP Installation Directory: "c:\users\kawano\documents\git_project\login_practice\xampp3\"
+9:00:43  [main] 	Checking for prerequisites
+9:00:43  [main] 	All prerequisites found
+9:00:43  [main] 	Initializing Modules
+9:00:43  [main] 	Starting Check-Timer
+9:00:43  [main] 	Control Panel Ready
+9:00:46  [Apache] 	Status change detected: running
+9:00:50  [mysql] 	Status change detected: running
+16:03:06  [Apache] 	Attempting to stop Apache (PID: 20304)
+16:03:06  [Apache] 	Attempting to stop Apache (PID: 24088)
+16:03:07  [Apache] 	Status change detected: stopped
+16:03:07  [mysql] 	Attempting to stop MySQL app...
+16:03:08  [mysql] 	Status change detected: stopped
+17:32:21  [main] 	Deinitializing Modules
+17:32:21  [main] 	Deinitializing Control Panel
+
+9:00:11  [main] 	Initializing Control Panel
+9:00:11  [main] 	Windows Version:  Enterprise  64-bit
+9:00:11  [main] 	XAMPP Version: 8.2.4
+9:00:11  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+9:00:11  [main] 	You are not running with administrator rights! This will work for
+9:00:11  [main] 	most application stuff but whenever you do something with services
+9:00:11  [main] 	there will be a security dialogue or things will break! So think 
+9:00:11  [main] 	about running this application with administrator rights!
+9:00:11  [main] 	XAMPP Installation Directory: "c:\users\kawano\documents\git_project\login_practice\xampp3\"
+9:00:11  [main] 	Checking for prerequisites
+9:00:11  [main] 	All prerequisites found
+9:00:11  [main] 	Initializing Modules
+9:00:11  [main] 	Starting Check-Timer
+9:00:11  [main] 	Control Panel Ready
+9:00:46  [Apache] 	Status change detected: running
+9:00:50  [mysql] 	Status change detected: running
+16:03:07  [Apache] 	Status change detected: stopped
+16:03:07  [Apache] 	Error: Apache shutdown unexpectedly.
+16:03:07  [Apache] 	This may be due to a blocked port, missing dependencies, 
+16:03:07  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+16:03:07  [Apache] 	Press the Logs button to view error logs and check
+16:03:07  [Apache] 	the Windows Event Viewer for more clues
+16:03:07  [Apache] 	If you need more help, copy and post this
+16:03:07  [Apache] 	entire log window on the forums
+16:03:08  [mysql] 	Status change detected: stopped
+16:03:08  [mysql] 	Error: MySQL shutdown unexpectedly.
+16:03:08  [mysql] 	This may be due to a blocked port, missing dependencies, 
+16:03:08  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+16:03:08  [mysql] 	Press the Logs button to view error logs and check
+16:03:08  [mysql] 	the Windows Event Viewer for more clues
+16:03:08  [mysql] 	If you need more help, copy and post this
+16:03:08  [mysql] 	entire log window on the forums
+17:32:21  [main] 	Deinitializing Modules
+17:32:21  [main] 	Deinitializing Control Panel
+

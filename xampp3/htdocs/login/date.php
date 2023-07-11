@@ -1,32 +1,4 @@
-<?php
 
-$host = 'localhost';
-$dbname = 'login';
-$username = 'admin';
-$password = '07132722';
-
-
-$db = new mysqli($host, $username, $password, $dbname);
-if ($db->connect_error) {
-    die("データベースへの接続に失敗しました: " . $db->connect_error);
-}
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  // フォームからのデータを取得
-  $gender = isset($_POST["gender"]) ? $_POST["gender"] : '';
-  $blood = isset($_POST["blood"]) ? $_POST["blood"] : '';
-  $opinion = isset($_POST["opinion"]) ? $_POST["opinion"] : '';
-
-  // SQLクエリの作成と実行
-  $sql = "INSERT INTO  form1(gender, blood, opinion) VALUES ('$gender', '$blood', '$opinion')";
-  if ($db->query($sql) === TRUE) {
-      echo '<p class="message">送信完了しました。</p>';
-
-  } else {
-      echo "上手く送信できませんでした。: " . $sql . "<br>" . $db->error;
-  }
-}
-?>
 
 
 
@@ -52,6 +24,9 @@ if (!isset($_SESSION['username'])) {
 </head>
 
 <body>
+  <div class="message">
+    送信完了しました。
+  </div>
 <div class="button-container">
       <form action="home.php">
         <input type="submit" value="HOME画面へ" />
