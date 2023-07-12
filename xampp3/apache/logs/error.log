@@ -357,3 +357,13 @@
 [Tue Jul 11 17:22:01.564559 2023] [php:warn] [pid 17084:tid 1840] [client ::1:59215] PHP Warning:  Undefined variable $saving in C:\\Users\\kawano\\Documents\\Git_Project\\Login_practice\\xampp3\\htdocs\\login\\conf.php on line 37, referer: http://localhost/login/index.php
 [Tue Jul 11 17:22:01.564559 2023] [php:warn] [pid 17084:tid 1840] [client ::1:59215] PHP Warning:  Undefined variable $lange in C:\\Users\\kawano\\Documents\\Git_Project\\Login_practice\\xampp3\\htdocs\\login\\conf.php on line 38, referer: http://localhost/login/index.php
 [Tue Jul 11 17:26:32.786110 2023] [php:warn] [pid 17084:tid 1872] [client ::1:59346] PHP Warning:  Undefined variable $lange in C:\\Users\\kawano\\Documents\\Git_Project\\Login_practice\\xampp3\\htdocs\\login\\conf.php on line 38, referer: http://localhost/login/index.php
+[Wed Jul 12 10:21:52.302790 2023] [ssl:warn] [pid 24036:tid 344] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 12 10:21:52.432516 2023] [core:warn] [pid 24036:tid 344] AH00098: pid file C:/Users/kawano/Documents/Git_Project/Login_practice/xampp3/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jul 12 10:21:52.439059 2023] [ssl:warn] [pid 24036:tid 344] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 12 10:21:52.792473 2023] [mpm_winnt:notice] [pid 24036:tid 344] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Wed Jul 12 10:21:52.792473 2023] [mpm_winnt:notice] [pid 24036:tid 344] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Wed Jul 12 10:21:52.792473 2023] [core:notice] [pid 24036:tid 344] AH00094: Command line: 'c:\\users\\kawano\\documents\\git_project\\login_practice\\xampp3\\apache\\bin\\httpd.exe -d C:/Users/kawano/Documents/Git_Project/Login_practice/xampp3/apache'
+[Wed Jul 12 10:21:52.799970 2023] [mpm_winnt:notice] [pid 24036:tid 344] AH00418: Parent: Created child process 29828
+[Wed Jul 12 10:21:53.630381 2023] [ssl:warn] [pid 29828:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 12 10:21:53.726716 2023] [ssl:warn] [pid 29828:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 12 10:21:53.806383 2023] [mpm_winnt:notice] [pid 29828:tid 364] AH00354: Child: Starting 150 worker threads.

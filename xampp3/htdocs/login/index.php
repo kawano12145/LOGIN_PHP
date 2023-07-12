@@ -106,17 +106,17 @@ echo date("Y年m月d日 H:i:s");
           
           生活満足度（％）：
           <input type="range" name="ranges" min="0" max="100" step="1" onmousemove="updateValue(event)">
-<span id="valueDisplay"></span>
+           <span id="valueDisplay"></span>
 
-<script>
-function updateValue(event) {
-  var rangeInput = event.target;
-  var valueDisplay = document.getElementById("valueDisplay");
-  valueDisplay.textContent = rangeInput.value;
-}
-</script>
-           <span class="required-label">*</span>
-        </label>
+            <script>
+             function updateValue(event) {
+             var rangeInput = event.target;
+             var valueDisplay = document.getElementById("valueDisplay");
+             valueDisplay.textContent = rangeInput.value;
+          }
+             </script>
+              <span class="required-label">*</span>
+         </label>
         </p>
         </p> 
         <p>
