@@ -5,11 +5,17 @@ $dbname = 'login';
 $username = 'admin';
 $password = '07132722';
 $error = '';
+
 try {
-
-
     // データベースに接続
     $db = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
+
+
+
+
+
+    // セッションの開始
+    session_start();
 
     // ログインフォームが送信された場合の処理
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -18,54 +24,55 @@ try {
         $inputPassword = $_POST['password'] ?? '';
 
         // 入力値のチェック
-    if (empty($username) || empty($inputPassword)) {
-      $error = '<span style="color: red;">
-      ユーザー名またはパスワードが間違っています。</span>';
-      
-    
-      
-  }
- 
-
-        // データベースでユーザーを検索
-        $stmt = $db->prepare('SELECT * FROM users WHERE username = ?');
-        $stmt->execute([$username]);
-        $user = $stmt->fetch();
-
-       
-        
-        // パスワードの照合
-        if ($user && password_verify($inputPassword, $user['password'])) {
-          //↑　ユーザーが存在しない場合にfalseを返さないように
-            // ログイン成功時の処理
-            // セッションなどの操作を行う
-
-            //セッション ID の伝達方法を制御
-            session_start();
-         
-      
-            $_SESSION['username'] = $username;
-            // ログイン後のリダイレクトなど
-            header('Location: home.php');
-            exit;
+        if (empty($username) || empty($inputPassword)) {
+            $error = '<span style="color: red;">ユーザー名またはパスワードが間違っています。</span>';
         } else {
-            // ログイン失敗時の処理
-            
-            $error = '<span style="color: red;">
-            ユーザー名またはパスワードが間違っています。</span>';
-          
+            // データベースでユーザーを検索
+            $stmt = $db->prepare('SELECT * FROM users WHERE username = ?');
+            $stmt->execute([$username]);
+            $user = $stmt->fetch();
+
+            // パスワードの照合
+            if ($user && password_verify($inputPassword, $user['password'])) {
+                // セッションにユーザー名を保存
+                $_SESSION['username'] = $username;
+                // ログイン後のリダイレクト
+                header('Location: home.php');
+                exit;
+            } else {
+                // ログイン失敗時の処理
+                $error = '<span style="color: red;">ユーザー名またはパスワードが間違っています。</span>';
+            }
         }
+    }
+
+    // ログイン済みの場合にはホームページにリダイレクト
+    if (isset($_SESSION['username'])) {
+      echo '<script>
+      alert("既にログイン済みです");
+      window.location.href = "home.php"; // JavaScriptでリダイレクト
+      </script>';
+      exit;
+  
     }
 } catch (PDOException $e) {
     // データベース接続エラー時の処理
     $error = 'データベースに接続できませんでした。';
     // エラーメッセージの表示など
-
 }
-
-
 ?>
 
+
+
+<?php
+
+
+// CSRFトークンの生成
+$csrf_token = bin2hex(random_bytes(32));
+
+// 生成したトークンをセッションに保存
+$_SESSION['csrf_token'] = $csrf_token;
+?>
 
 <!DOCTYPE html>
 <html lang="ja">
@@ -76,35 +83,32 @@ try {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ログイン</title>
 </head>
-<header>
-  <h1>
-  ログイン
-</h1>
-<style> .timezone {
-  color:#5555;
-  text-align:center;
-}
-</style>
-<div class="timezone">
-<?php
-date_default_timezone_set('Asia/Tokyo');
-echo date("Y年m月d日 H:i:s");
-
-?>
-</div>
-
-<br />
-</header>
 
 <body>
+  <header>
+    <h1>
+    ログイン
+  </h1>
+  
+  <div class="timezone">
+  <?php
+  date_default_timezone_set('Asia/Tokyo');
+  echo date("Y年m月d日 H:i:s");
+  
+  ?>
+  </div>
+  
+  <br />
+  </header>
 <div class="login">
-    <form action="" method="POST">
-     
+    <form action="" method="POST">  
 
     
         <label for="login-mail"
         ><span>メールアドレス</span>
-        <input id="username" name="username" type="email" placeholder="メールアドレスを入力"/><br />
+
+          
+             <input id="username" name="username" type="email" placeholder="メールアドレスを入力"/><br />
       </label>
         
 
@@ -130,10 +134,11 @@ echo date("Y年m月d日 H:i:s");
 <br />
 <br />
 
-<div style="text-align: center;"><?php echo $error; ?></div>
-
 
 
 
 </body>
+
+<div class="error">
+<?php echo $error; ?></div>
 </html>

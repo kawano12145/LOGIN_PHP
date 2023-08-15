@@ -19,12 +19,12 @@ REM -------------------
 REM Test to see if this is a raw pear.bat (uninstalled version)
 SET TMPTMPTMPTMPT=@includ
 SET PMTPMTPMT=%TMPTMPTMPTMPT%e_path@
-FOR %%x IN ("C:\xampp3\php\pear") DO (if %%x=="%PMTPMTPMT%" GOTO :NOTINSTALLED)
+FOR %%x IN ("C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\php\pear") DO (if %%x=="%PMTPMTPMT%" GOTO :NOTINSTALLED)
 
 REM Check PEAR global ENV, set them if they do not exist
-IF "%PHP_PEAR_INSTALL_DIR%"=="" SET "PHP_PEAR_INSTALL_DIR=C:\xampp3\php\pear"
-IF "%PHP_PEAR_BIN_DIR%"=="" SET "PHP_PEAR_BIN_DIR=C:\xampp3\php"
-IF "%PHP_PEAR_PHP_BIN%"=="" SET "PHP_PEAR_PHP_BIN=C:\xampp3\php\php.exe"
+IF "%PHP_PEAR_INSTALL_DIR%"=="" SET "PHP_PEAR_INSTALL_DIR=C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\php\pear"
+IF "%PHP_PEAR_BIN_DIR%"=="" SET "PHP_PEAR_BIN_DIR=C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\php"
+IF "%PHP_PEAR_PHP_BIN%"=="" SET "PHP_PEAR_PHP_BIN=C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\php\php.exe"
 
 GOTO :INSTALLED
 

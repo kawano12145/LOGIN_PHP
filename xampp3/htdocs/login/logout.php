@@ -1,5 +1,6 @@
 <?php
 session_start();
+session_regenerate_id(true);
 
 // セッション変数を破棄します
 $_SESSION = array();
@@ -7,13 +8,9 @@ $_SESSION = array();
 // セッションを完全に破棄します
 session_destroy();
 
-// リダイレクト先の取得
-$redirect = isset($_POST['redirect']) ? $_POST['redirect'] : 'login.php';
 
 // リダイレクト
-header("Location: $redirect");
+header("Location: login.php");
 exit;
 
-
-?>
 

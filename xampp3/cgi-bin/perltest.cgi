@@ -1,4 +1,4 @@
-#!"C:\xampp3\perl\bin\perl.exe"
+#!"C:\Users\kawano\Documents\Git_Project\Login_practice\xampp3\perl\bin\perl.exe"
 
 print "Content-type: text/html\n\n";
 print '<html>';

@@ -13,15 +13,15 @@ try {
     // ログインフォームが送信された場合の処理
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // ユーザーが入力した情報を取得
-        // trim 空白の除去
         
-        $name = trim($_POST['name'] ?? '');
-        $username = trim($_POST['username'] ?? '');
-        $password = trim($_POST['password'] ?? '');
+        
+        $name = ($_POST['name'] ?? '');
+        $username = ($_POST['username'] ?? '');
+        $password = ($_POST['password'] ?? '');
 
         if (empty($name) || empty($username) || empty($password)) {
           $error = '<span style="color: red;">ユーザー名・メールアドレス・パスワードを入力してください。</span>';
-            
+                // $name, $username, $password のいずれかが空の場合の処理
             
         } else {
             // データベースにユーザー情報を保存
@@ -46,37 +46,48 @@ try {
 ?>
 
 
+<?php
+// セッションの開始
+session_start();
+
+// CSRFトークンの生成
+$csrf_token = bin2hex(random_bytes(32));
+
+// 生成したトークンをセッションに保存
+$_SESSION['csrf_token'] = $csrf_token;
+?>
+
 
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="login.css" />
+  <link rel="stylesheet" href="register.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>新規登録</title>
 </head>
-<header>
-  <h1>
-  新規登録画面
-</h1>
-<style> .timezone {
-  color:#5555;
-  text-align:center;
-}
-</style>
-<div class="timezone">
-<?php
-date_default_timezone_set('Asia/Tokyo');
-echo date("Y年m月d日 H:i:s");
-
-?>
-</div>
-
-<br />
-</header>
 
 <body>
+  <header>
+    <h1>
+    新規登録画面
+  </h1>
+  <style> .timezone {
+    color:#5555;
+    text-align:center;
+  }
+  </style>
+  <div class="timezone">
+  <?php
+  date_default_timezone_set('Asia/Tokyo');
+  echo date("Y年m月d日 H:i:s");
+  
+  ?>
+  </div>
+  
+  <br />
+  </header>
 <div class="register">
     <form action="" method="POST">
      
@@ -114,10 +125,13 @@ echo date("Y年m月d日 H:i:s");
 <br />
 <br />
 
-<div style="text-align: center;"><?php echo $error; ?></div>
-
 
 
 
 </body>
+
+
+<div class="error">
+<?php echo $error; ?></div>
+
 </html>
