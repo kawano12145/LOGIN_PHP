@@ -1,7 +1,7 @@
 
 
 <?php
-$timeout = 20; // 30分（30分 * 60秒）
+$timeout = 600; // 30分（30分 * 60秒）
 
 // セッションクッキーのパラメータを設定します
 session_set_cookie_params($timeout);
