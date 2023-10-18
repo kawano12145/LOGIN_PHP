@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+      0deg,
+      transparent calc(100% - 1px),
+      #f0f0f0 calc(100% - 1px)
+    ),
+    linear-gradient(
+      90deg,
+      transparent calc(100% - 1px),
+      #f0f0f0 calc(100% - 1px)
+    );
+  background-size: 16px 16px;
+  background-repeat: repeat;
+  background-position: center center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: rgba(12, 138, 143, 0.032);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgba(30, 3, 75, 0.726);
+}
+
+.temple-list {
+  list-style: none;
+  padding: 0;
+}
+
+.temple-list-item {
+  padding: 10px;
+  border-bottom: 1px solid #a09d9d;
+}
+
+h2 {
+  color: rgba(30, 3, 75, 0.726);
+}
+
+.temple-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(11, 119, 235);
+}
+
+.temple-location {
+  color: rgb(8, 65, 115);
+}
